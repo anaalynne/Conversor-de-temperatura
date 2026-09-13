@@ -23,7 +23,7 @@ while True:
        elif opcao == '2':
               resultado = temp * 1.8 + 32
               print ( f'{temp} ºC é equivalente {resultado:.2f} ºF') 
-
+              break
        else:
         print ('Opção invalida- Digite a opção 1,2 ou 3')
          
